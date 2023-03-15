@@ -101,7 +101,7 @@ OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to 
 
 ##### Explanation of Ideas
 You can chose to work on one or a combination of ideas depending on the difficulty!
-* Crypto - create a proof of stake coin called BUG
+* Smart Contract - create an Ethereum smart contract to issue a token when a bug is found
 * Flutter - 
 	- Add designs for a dark theme in the Figma file, then implement a generic theme manager for future themes.
 	- Start with app internationalization and localization (l10n).
@@ -125,7 +125,7 @@ You can chose to work on one or a combination of ideas depending on the difficul
 
 #### Expected Results
 
-* Proof of stake coin on the testnet and mainnet.
+* Integrated Ethereum smart contract that issues a token when a bug is found and verifed.
 * Release Flutter app on App Store and Play Store.
 * Implementation of private issues reporting.
 * Update of browser plugins to support showing bugs on relative sites in a secure way
@@ -140,7 +140,7 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 
 * Python / Django for Backend
 * Flutter for Mobile app
-* Blockchain / Bitcoin clone for the coin
+* Smart contract development
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
@@ -485,3 +485,39 @@ To receive early feedback please:
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
+
+### [OWASP OWTF](https://owasp.org/www-project-owtf/)
+
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Explanation of Ideas
+
+- Refactor and complete the web interface ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Update plugins to new recon, discovery and attack tools ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Design & implement deployment architecture ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Getting Started
+
+Repositories:
+
+- [OWTF](https://github.com/owtf/owtf)
+- [OWTF Docker](https://github.com/owtf/owtf-docker)
+- [OWTF Python client](https://github.com/owtf/owtf-python-client)
+
+Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the [contributing guide](https://github.com/owtf/owtf/blob/master/CONTRIBUTING.md). Join the community at #owtf on OWASP [Slack](https://owasp.slack.com/) and share your questions, project ideas.
+
+#### Knowledge Prerequisites
+
+- Terraform for infra as code
+- Python for application
+- React/React ecosystem for application frontend
+- Kubernetes/helm for infrastructure deployment
+- Basic knowledge of application security, tools used in bug bounty style hunting
+
+##### Mentors
+
+- [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
+- [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
